@@ -1,5 +1,7 @@
 body {background-color: beige;}
 img {display: block; margin-left: auto; margin-right: auto; width: 40%;}
 
+ul.huvud {list-style-position: inside;}
+
 ul.ovrigatjanster {list-style-type: upper-alpha; color: maroon; padding: 10px 20px;background-color: beige;}
 ul.ovrigatjanster {float: initial;}
