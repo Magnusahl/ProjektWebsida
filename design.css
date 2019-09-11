@@ -1,13 +1,30 @@
 nav {
-    background-color: beige;
-    padding: 20px;
+    background-color: blue;
+    padding: 40px;
 }
 
 .list1 {
-    display: block;
-    width: 60px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:beige;
+    
 }
 
 .list1item {
-    display: flex;
+    float: left;
+    padding: 14px 16px;
+    
+}
+
+
+.list1item:hover{
+    background-color: maroon;
+}
+
+.boka {
+    position: absolute;
+    top: 20%;
+    left: 45%;
 }
