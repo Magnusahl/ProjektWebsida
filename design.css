@@ -1,8 +1,13 @@
-body {background-color: beige;}
-img {display: block; margin-left: auto; margin-right: auto; width: 40%;}
+nav {
+    background-color: beige;
+    padding: 20px;
+}
 
-ul.huvud {list-style-position: inside;}
+.list1 {
+    display: block;
+    width: 60px;
+}
 
-
-ul.ovrigatjanster {list-style-type: upper-alpha; color: maroon; padding: 10px 20px;background-color: beige;}
-ul.ovrigatjanster {float: initial;}
+.list1item {
+    display: flex;
+}
