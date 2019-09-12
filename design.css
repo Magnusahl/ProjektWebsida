@@ -3,8 +3,14 @@ nav {
     padding: 40px;
 }
 
+h3 {
+    text-align: center;
+    color: yellowgreen;
+    
+
+}
+
 .list1 {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -12,14 +18,21 @@ nav {
     
 }
 
-.list1item {
-    float: left;
-    padding: 14px 16px;
-    
+.list1 a  {
+    color: aqua;
+    text-decoration: none;
 }
 
-.list1item:hover{
+.list1 li:hover{
     background-color: maroon;
+}
+
+.list1item {
+    list-style-type: none;
+    font-family: fantasy;
+    color: black;
+    float: left;
+    padding: 14px 16px;
 }
 
 .boka {
@@ -29,6 +42,8 @@ nav {
 }
 
 .frontImg {
-    position: absolute;
-    left: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
