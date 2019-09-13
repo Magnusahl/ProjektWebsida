@@ -3,9 +3,14 @@ nav {
     padding: 40px;
 }
 
+body {
+    background-color:maroon;
+}
+
 h3 {
     text-align: center;
-    color: yellowgreen;
+    color: beige;
+    font-family: 'Roboto', sans-serif;
 }
 
 .list1 {
@@ -16,12 +21,13 @@ h3 {
 }
 
 .list1 a  {
-    color: aqua;
+    color: black;
     text-decoration: none;
+    font-family: 'Chilanka', cursive;
 }
 
 .list1 li:hover{
-    background-color: maroon;
+    background-color: blue;
 }
 
 .list1item {
