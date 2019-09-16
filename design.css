@@ -1,33 +1,31 @@
-nav {
-    background-color: blue;
-    padding: 40px;
-}
+
 
 body {
-    background-color:maroon;
+    background-color: beige;
 }
 
-h3 {
-    text-align: center;
-    color: beige;
-    font-family: 'Roboto', sans-serif;
+h1 {
+    margin: 15px;
+    text-align: left;
+    color: darkblue;
+    font-family: 'Merienda', cursive;
 }
 
 .list1 {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:beige;
+    overflow: auto;
+    padding: 0%;
+    margin: 0%;
+    background-color:darkblue;
 }
 
 .list1 a  {
-    color: black;
+    color: beige;
     text-decoration: none;
-    font-family: 'Chilanka', cursive;
+    font-family: 'Merienda', cursive;
 }
 
 .list1 li:hover{
-    background-color: blue;
+    background-color: maroon;
 }
 
 .list1item {
@@ -39,39 +37,45 @@ h3 {
 }
 
 .boka {
-    position: fixed; 
-    left: 500px; 
-    top: 145px; 
-    color: beige;
-    font-family: 'Chilanka', cursive;
+    position: absolute; 
+    left: 575px; 
+    top: 175px; 
+    color: darkblue;
+    font-family: 'Special Elite', cursive;
 }
 
 .frontImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+    position: absolute;
+    right: 90px;
+    top: 200px;
+}
+
+.textfront {
+    margin: 90px;
+    color: darkblue;
+    font-family:'Anonymous Pro', monospace;
 }
 
 .bokaImg {
     position: absolute;
-    right: 0px;
-    /*display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;*/
+    right: 90px;
+    top: 200px;
 }
 
 .ovrigaImg { 
-    position: fixed; 
-    right: 1px;
-    top: 189px; 
+    position: absolute;
+    right: 90px;
+    top: 200px;
 }
 
 .texttjanst {
-    position: fixed;
-    left: 500px; 
-    top: 175px;
-    color: beige;
-    font-family: 'Chilanka', cursive;
+    margin: 90px;
+    color: darkblue;
+    font-family:'Anonymous Pro', monospace;
+}
+
+.mapouter {
+    position: absolute;
+    right: 90px;
+    top: 200px;
 }

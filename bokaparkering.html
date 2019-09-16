@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="design.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet">
+    <!--Lägg in nedan rad i alla html filer-->
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Merienda|Special+Elite&display=swap" rel="stylesheet">
     <title>Deluxe Parkering</title>
   </head>
-  <body>
-
+<body>
+      
    <header>
-      <h3>Välkommen till Deluxe Parkering</h3>
+      <h1>Deluxe Parkering</h1>
     <nav>
         <ul class="list1">
             <li class="list1item"><a href="index.html">Startsida</a></li>
@@ -20,25 +21,34 @@
             <li class="list1item"><a href="forklaring.html">Om sidan</a></li>
       </ul>
     </nav>
+    <br>
   </header>
     
     <div class="boka">
         <br><br><p>Boka parkering</p>
         <form action="/contact.html">
         Förnamn:<br>
-        <input type="text" name="Förnamn"><br>
+        <input type="text" name="Förnamn"><br><br>
         Efternamn:<br>
-        <input type="text" name="Efternamn"><br>
+        <input type="text" name="Efternamn"><br><br>
         Regestreringsnummer:<br>
         <input type="text" name="Regnr"><br><br>
-    
+        Datum:<br> 
+        <input name="date" type="date" placeholder="Select date" min="2018-10-22" max="2020-07-31"><br><br>
       <input type="radio" name="Bil" value="Bil" > Bil<br>
       <input type="radio" name="MC" value="MC" > MC<br><br>
       <input type="Submit" value="Skicka">
       <input type="reset"> 
     </form>
     </div>
-
+    <div class="textfront">
+      
+      <br>
+      Fyll i formuläret för att 
+      <br>boka en parkeringsplats.<br>
+      <br>För bokning av cykel parkering<br> hänvisar vi till epost.
+      
+    </div>
     <div class="bokaImg">
         <img src="./parking.jpg">
       </div>

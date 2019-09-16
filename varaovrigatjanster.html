@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="design.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet">
+    <!--Lägg in nedan rad i alla html filer-->
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Merienda|Special+Elite&display=swap" rel="stylesheet">
     <title>Deluxe Parkering</title>
   </head>
-  <body>
-    
+<body>
+      
    <header>
-      <h3>Välkommen till Deluxe Parkering</h3>
+      <h1>Deluxe Parkering</h1>
     <nav>
         <ul class="list1">
             <li class="list1item"><a href="index.html">Startsida</a></li>
@@ -20,13 +21,46 @@
             <li class="list1item"><a href="forklaring.html">Om sidan</a></li>
       </ul>
     </nav>
+    <br>
   </header>
   <div class="texttjanst">
-<h2>Service 350kr</h2>
-
-<h2>Tvätt 150kr</h2>
+<h4>Standard Service från 1350kr</h4>
+I den ingår:
+<br>Byte av motorolja och oljefilet.
+<br><br>Uppdatering av bilens <br>grundläggande mjukvara.
+<br><br>Smörjning av låscylindrar,<br> gångjärn och dörrar.
+<br><br>Kontroll styrinrättning, batteri, <br>lampor, varningslampor, <br>drivrem, 
+kylsystem samt<br> visuell kontroll av bromsar.
+<br>
+<br>
+<h4>Express service från 1500kr</h4>
+Boka en tid och fyll i vilken<br> typ av service ni behöver i express rutan.
+<br>
+<br>
+<h4>Standard Tvätt 150kr</h4>
+<h4>Deluxe Tvätt 350kr</h4>
+<br>
   </div>
-    
+  <div class="boka">
+    <br><br><p>Boka tilläggstjänst</p>
+    <form action="/contact.html">
+    Förnamn:<br>
+    <input type="text" name="Förnamn"><br><br>
+    Efternamn:<br>
+    <input type="text" name="Efternamn"><br><br>
+    Regestreringsnummer:<br>
+    <input type="text" name="Regnr"><br><br>
+    Express service:<br>
+    <input type="text" name="Regnr"><br><br>
+    Datum:<br> 
+    <input name="date" type="date" placeholder="Select date" min="2018-10-22" max="2020-07-31"><br><br>
+
+  <input type="radio" name="Bil" value="Bil" > Bil<br>
+  <input type="radio" name="MC" value="MC" > MC<br><br>
+  <input type="Submit" value="Skicka">
+  <input type="reset"> 
+</form>
+</div>
 <div class="ovrigaImg">
     <img src="./washcarwomen.jpg">
   </div>
