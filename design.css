@@ -53,7 +53,7 @@ h1 {
     top: 25%;
 }
 
-.textfront {
+.text {
     position: absolute;
     top: 13%;
     width: 45%;
@@ -74,14 +74,7 @@ h1 {
     top: 25%;
 }
 
-.texttjanst {
-    position: absolute;
-    top: 15%;
-    width: 45%;
-    margin: 5%;
-    color: darkblue;
-    font-family:'Anonymous Pro', monospace;
-}
+
 
 .mapouter {
     position: absolute;
