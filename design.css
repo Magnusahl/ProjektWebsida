@@ -33,16 +33,16 @@ h1 {
 
 .list1item {
     list-style-type: none;
-    font-family: fantasy;
     color: black;
     float: left;
     padding: 14px 16px;
 }
 
 .boka {
-    position: relative; 
-    left: 30%; 
-    top: 25%; 
+    position: absolute; 
+    top: 25%;
+    width: 55%;
+    left: 35%; 
     color: darkblue;
     font-family: 'Special Elite', cursive;
 }
@@ -55,8 +55,8 @@ h1 {
 
 .text {
     position: absolute;
-    top: 13%;
-    width: 45%;
+    top: 17%;
+    width: 35%;
     margin: 5%;
     color: darkblue;
     font-family:'Anonymous Pro', monospace;
