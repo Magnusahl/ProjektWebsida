@@ -8,7 +8,7 @@
     <title>Deluxe Parkering</title>
   </head>
 <body>
-      
+   
    <header>
       <h1>Deluxe Parkering</h1>
     <nav>
@@ -21,11 +21,41 @@
             <li class="list1item"><a href="forklaring.html">Om sidan</a></li>
       </ul>
     </nav>
-    <br>
+  
   </header>
+  
+  <div class="text">
+      
+        Fyll i formuläret för att 
+        boka en parkeringsplats. <br><br> 
+        För bokning av cykel parkeringhänvisar vi till epost.
+        <br><br> <br>
+        !!Priser!! <br>    
+        
+        <table>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>94</td>
+            </tr>
+          </table>
+        
+    </div>
+
+   
     
     <div class="boka">
-        <br><br><p>Boka parkering</p>
+        <p>Boka parkering</p><br>
         <form action="/contact.html">
         Förnamn:<br>
         <input type="text" name="Förnamn"><br><br>
@@ -34,23 +64,17 @@
         Regestreringsnummer:<br>
         <input type="text" name="Regnr"><br><br>
         Datum:<br> 
-        <input name="date" type="date" placeholder="Select date" min="2018-10-22" max="2020-07-31"><br><br>
+      <input name="date" type="date" min="2018-10-22" max="2020-07-31"><br><br>
       <input type="radio" name="Bil" value="Bil" > Bil<br>
       <input type="radio" name="MC" value="MC" > MC<br><br>
-      <input type="Submit" value="Skicka">
-      <input type="reset"> 
+      <!--Styla knapparna!! --><input type="Submit" value="Skicka"><!--Styla knapparna!! -->
+     <!--Styla knapparna!! --> <input type="reset"> <!--Styla knapparna!! -->
     </form>
     </div>
-    <div class="text">
-      
-      <br>
-      Fyll i formuläret för att 
-      <br>boka en parkeringsplats.<br>
-      <br>För bokning av cykel parkering<br> hänvisar vi till epost.
-      
-    </div>
+    
     <div class="bokaImg">
-        <img src="./parking.jpg">
+        <img src="./parking.jpg" alt="">
       </div>
+
   </body>
 </html>
