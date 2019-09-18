@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: beige;
+    background-image: linear-gradient(-90deg, darkblue,beige);  
 }
 
 h1 {
-    margin: 15px;
+    /*margin: 15px;*/
     text-align: left;
-    color: darkblue;
+    color:darkblue;
     font-family: 'Merienda', cursive;
 }
 
@@ -22,14 +22,10 @@ tr {
     text-align: left;
 }    
 
-td {
-    margin: 5px;
-}
-
 .list1 {
     overflow: auto;
-    padding: 0;
-    margin: 0;
+    /*padding: 0;
+    margin: 0;*/
     background-color:darkblue;
 }
 
@@ -50,41 +46,39 @@ td {
     padding: 14px 16px;
 }
 
+.active {
+    background-color: maroon;
+}
+
 .boka {
     position: absolute; 
-    top: 27%;
+    top: 22%;
     width: 55%;
     left: 33%; 
     color: darkblue;
     font-family: 'Special Elite', cursive;
 }
 
-.frontImg {
+/*.frontImg {
     position: absolute;
     right: 5%;
     top: 25%;
-}
+}*/
 
 .text {
     position: absolute;
-    top: 17%;
-    width: 20%;
+    top: 12%;
+    width: 22%;
     margin: 5%;
     color: darkblue;
     font-family:'Anonymous Pro', monospace;
 }
  
-.bokaImg {
+/*.bokaImg {
     position: absolute;
     right: 5%;
     top: 25%;
-}
-
-.ovrigaImg { 
-    position: absolute;
-    right: 5%;
-    top: 25%;
-}
+}*/
 
 .mapouter {
     position: absolute;
@@ -96,3 +90,40 @@ td {
     height:450px;
     width:600px;
 }
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.frontImg {
+    position: absolute;
+    right: 5%;
+    top: 20%;}
+ 
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: maroon;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: beige;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.frontImg:hover .overlay {
+  opacity: 1;
+}
+  

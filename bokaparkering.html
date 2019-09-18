@@ -10,11 +10,11 @@
 <body>
    
    <header>
-      <h1>Deluxe Parkering</h1>
+     <!--<h1>Deluxe Parkering</h1>-->
     <nav>
         <ul class="list1">
             <li class="list1item"><a href="index.html">Startsida</a></li>
-            <li class="list1item"><a href="bokaparkering.html">Boka Parkering</a></li>
+            <li class="list1item"><a class="active" href="bokaparkering.html">Boka Parkering</a></li>
             <li class="list1item"><a href="varaovrigatjanster.html">Våra övriga tjänster</a></li>
             <li class="list1item"><a href="hittatilloss.html">Hitta till oss</a></li>
             <li class="list1item"><a href="contact.html">Kontakt</a></li>
@@ -30,26 +30,32 @@
         boka en parkeringsplats. <br><br> 
         För bokning av cykel parkeringhänvisar vi till epost.
         <br><br> <br>
-        <h4>!!Priser!!</h4>  <br>  
+        <h4>Pris</h4>  <br>  
         
         <table>
             
+        <tr>
+          <td></td>
+          <td><h4>Bil</h4></td>
+          <td><h4>MC</h4></td>
+        </tr>
+
             <tr>
               <td>Dygns parkering</td>
               <td>500kr</td>
+              <td>250kr</td>
             </tr>
             <tr>
               <td>Natt parkering</td>
               <td>300kr</td>
+              <td>150kr</td>
             </tr>
             <tr>
               <td>Månads parkering</td>
               <td>5500kr</td>
+              <td>3000kr</td>
             </tr>
-            <tr>
-                <td>Cykel parkering</td>
-                <td>100kr/mån</td>
-              </tr>
+            
           </table>
         
     </div>
@@ -74,8 +80,9 @@
     </form>
     </div>
     
-    <div class="bokaImg">
-        <img src="./parking.jpg" alt="">
+    <div class="frontImg">
+        <img src="./parking.jpg" alt="" class="image">
+      <div class="overlay">Parkering förbjuden!
       </div>
 
   </body>
