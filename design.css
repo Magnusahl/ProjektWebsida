@@ -23,27 +23,21 @@ tr {
 }    
 
 .list1 {
-    overflow: auto;
-    /*padding: 0;
-    margin: 0;*/
+    list-style-type: none;
+    overflow: hidden;
     background-color:darkblue;
 }
 
 .list1 a  {
+    float: left;
     color: beige;
     text-decoration: none;
     font-family: 'Merienda', cursive;
-}
-
-.list1 li:hover{
-    background-color: maroon;
-}
-
-.list1item {
-    list-style-type: none;
-    color: black;
-    float: left;
     padding: 14px 16px;
+}
+
+.list1 :hover{
+    background-color: maroon;
 }
 
 .active {
@@ -59,12 +53,6 @@ tr {
     font-family: 'Special Elite', cursive;
 }
 
-/*.frontImg {
-    position: absolute;
-    right: 5%;
-    top: 25%;
-}*/
-
 .text {
     position: absolute;
     top: 12%;
@@ -73,17 +61,11 @@ tr {
     color: darkblue;
     font-family:'Anonymous Pro', monospace;
 }
- 
-/*.bokaImg {
-    position: absolute;
-    right: 5%;
-    top: 25%;
-}*/
 
 .mapouter {
     position: absolute;
     right: 5%;
-    top: 25%;
+    top: 21%;
 }
 
 .mapouter iframe {
@@ -95,7 +77,7 @@ tr {
 
 /* Container needed to position the overlay. Adjust the width as needed */
 .frontImg {
-    position: absolute;
+    position: fixed;
     right: 5%;
     top: 20%;}
  
@@ -126,4 +108,15 @@ tr {
 .frontImg:hover .overlay {
   opacity: 1;
 }
-  
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkblue;
+    color: beige;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    padding: 14px 16px;
+}
