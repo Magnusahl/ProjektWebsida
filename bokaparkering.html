@@ -28,7 +28,7 @@
       
         Fyll i formuläret för att 
         boka en parkeringsplats. <br><br> 
-        För bokning av cykel parkeringhänvisar vi till epost.
+        
         <br><br> <br>
         <h4>Pris</h4>  <br>  
         
@@ -71,19 +71,31 @@
         <input type="text" name="Efternamn"><br><br>
         Regestreringsnummer:<br>
         <input type="text" name="Regnr"><br><br>
+        <select name="cars">
+            <option value="">Välj Parkering</option>
+              <option value="volvo">Dygn</option>
+              <option value="tesla">Natt</option>
+              <option value="toyota">Månad</option>
+              
+          </select><br><br>
         Datum:<br> 
       <input name="date" type="date" min="2018-10-22" max="2020-07-31"><br><br>
+      
       <input type="radio" name="Bil" value="Bil" > Bil<br>
       <input type="radio" name="MC" value="MC" > MC<br><br>
-      <!--Styla knapparna!! --><input type="Submit" value="Skicka"><!--Styla knapparna!! -->
-     <!--Styla knapparna!! --> <input type="reset"> <!--Styla knapparna!! -->
+     <input type="Submit" value="Skicka">
+     <input type="reset">
     </form>
     </div>
     
     <div class="frontImg">
-        <img src="./parking.jpg" alt="" class="image">
-      <div class="overlay">Parkering förbjuden!
+        <img src="./parktime.jpg" alt="" class="image">
+      <div class="overlay">Tänk inte på tiden
       </div>
       </div>
+      <footer>
+          <a href="https://magnusahl.github.io/">©Copyright</a>
+
+</footer>
   </body>
 </html>

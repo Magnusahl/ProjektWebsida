@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    /*margin: 15px;*/
+    margin: 15px;
     text-align: left;
     color:darkblue;
     font-family: 'Merienda', cursive;
@@ -116,7 +116,7 @@ footer {
     width: 100%;
     background-color: darkblue;
     color: beige;
-    text-align: center;
+    text-align: right;
     font-family: 'Merienda', cursive;
     padding: 14px 16px;
 }
