@@ -1,104 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="design.css"/>
-    
-    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro%7cMerienda%7cSpecial+Elite&display=swap" rel="stylesheet">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153121649-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-153121649-1");
+    </script>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="design.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro%7cMerienda%7cSpecial+Elite&display=swap" rel="stylesheet" />
     <title>Deluxe Parkering</title>
-  </head>
+</head>
+
 <body>
-   
-   <header>
-     
-    <nav>
-        <ul class="list1">
-            <li class="list1item"><a href="index.html">Deluxe Parkering</a></li>
-            <li class="list1item"><a class="active" href="bokaparkering.html">Boka Parkering</a></li>
-            <li class="list1item"><a href="varaovrigatjanster.html">Våra övriga tjänster</a></li>
-            <li class="list1item"><a href="hittatilloss.html">Hitta till oss</a></li>
-            <li class="list1item"><a href="contact.html">Kontakt</a></li>
-            <li class="list1item"><a href="forklaring.html">Om sidan</a></li>
-      </ul>
-    </nav>
-  
-  </header>
-  
-  <div class="text">
-      
-        Fyll i formuläret för att 
-        boka en parkeringsplats. <br> 
-        Betalning sker på plats när ni parkerar.
-        <br><br> 
-        
-        <br><br>
-        <h4>Pris</h4> 
-        
+    <header>
+        <nav>
+            <ul class="list1">
+                <li class="list1item"><a href="index.html">Deluxe Parkering</a></li>
+                <li class="list1item">
+                    <a class="active" href="bokaparkering.html">Boka Parkering</a>
+                </li>
+                <li class="list1item">
+                    <a href="varaovrigatjanster.html">Våra övriga tjänster</a>
+                </li>
+                <li class="list1item">
+                    <a href="hittatilloss.html">Hitta till oss</a>
+                </li>
+                <li class="list1item"><a href="contact.html">Kontakt</a></li>
+                <li class="list1item"><a href="forklaring.html">Om sidan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="text">
+        Fyll i formuläret för att boka en parkeringsplats. <br /> Betalning sker på plats när ni parkerar.
+        <br /><br />
+
+        <br /><br />
+        <h4>Pris</h4>
+
         <table>
-            
-        <tr>
-          <td></td>
-          <td><h4>Bil</h4></td>
-          <td><h4>MC</h4></td>
-        </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <h4>Bil</h4>
+                </td>
+                <td>
+                    <h4>MC</h4>
+                </td>
+            </tr>
 
             <tr>
-              <td>Dygnsparkering</td>
-              <td>500kr</td>
-              <td>250kr</td>
+                <td>Dygnsparkering</td>
+                <td>500kr</td>
+                <td>250kr</td>
             </tr>
             <tr>
-              <td>Nattparkering</td>
-              <td>300kr</td>
-              <td>150kr</td>
+                <td>Nattparkering</td>
+                <td>300kr</td>
+                <td>150kr</td>
             </tr>
             <tr>
-              <td>Månadsparkering</td>
-              <td>5500kr</td>
-              <td>3000kr</td>
+                <td>Månadsparkering</td>
+                <td>5500kr</td>
+                <td>3000kr</td>
             </tr>
-            
-          </table>
-          <br><br><br>
-          <h4>Elbil? </h4><br> 
-          Självklart är alla våra parkeringsplatser utrustade med 3.7kw laddare med uttag för alla vanliga förekommande laddsladdar på marknaden.
+        </table>
+
+        <br /><br /><br />
+        <h4>Elbil?</h4>
+        <br /> Självklart är alla våra parkeringsplatser utrustade med 3.7kw laddare med uttag för alla vanliga förekommande laddsladdar på marknaden.
     </div>
 
-   
-    
     <div class="boka">
-        <p>Boka parkering</p><br>
+        <p>Boka parkering</p>
+        <br />
         <form action="/contact.html">
-        Förnamn:<br>
-        <input type="text" name="Förnamn"><br><br>
-        Efternamn:<br>
-        <input type="text" name="Efternamn"><br><br>
-        Registreringsnummer:<br>
-        <input type="text" name="Regnr"><br><br>
-        <select name="cars">
-            <option value="">Välj Parkering</option>
-              <option value="volvo">Dygn</option>
-              <option value="tesla">Natt</option>
-              <option value="toyota">Månad</option>
-              
-          </select><br><br>
-        Datum:<br> 
-      <input name="date" type="date" min="2018-10-22" max="2020-07-31"><br><br>
-      <input type="radio" name="Bil" value="Bil" > Bil<br>
-      <input type="radio" name="MC" value="MC" > MC<br><br>
-     <input type="Submit" value="Skicka">
-     <input type="reset">
-    </form>
+            Förnamn:<br />
+            <input type="text" name="Förnamn" /><br /><br /> Efternamn:
+            <br />
+            <input type="text" name="Efternamn" /><br /><br /> Registreringsnummer:
+            <br />
+            <input type="text" name="Regnr" /><br /><br />
+            <select name="cars">
+          <option value="">Välj Parkering</option>
+          <option value="volvo">Dygn</option>
+          <option value="tesla">Natt</option>
+          <option value="toyota">Månad</option> </select
+        ><br /><br />
+        Datum:<br />
+        <input
+          name="date"
+          type="date"
+          min="2018-10-22"
+          max="2020-07-31"
+        /><br /><br />
+        <input type="radio" name="Bil" value="Bil" /> Bil<br />
+        <input type="radio" name="MC" value="MC" /> MC<br /><br />
+        <input type="Submit" value="Skicka" />
+        <input type="reset" />
+      </form>
     </div>
-    
-    <div class="frontImg">
-        <img src="./parktime.jpg" alt="" class="image">
-      <div class="overlay">Tänk inte på tiden
-      </div>
-      </div>
-      <footer>
-          <a href="https://magnusahl.github.io/">©Copyright</a>
 
-</footer>
+    <div class="frontImg">
+      <img src="./parktime.jpg" alt="" class="image" />
+      <div class="overlay">Tänk inte på tiden</div>
+    </div>
+    <footer>
+      <a href="https://magnusahl.github.io/">©Copyright</a>
+    </footer>
   </body>
 </html>

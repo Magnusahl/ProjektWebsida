@@ -1,84 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="design.css"/>
-    
-    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro%7cMerienda%7cSpecial+Elite&display=swap" rel="stylesheet">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153121649-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-153121649-1");
+    </script>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="design.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro%7cMerienda%7cSpecial+Elite&display=swap" rel="stylesheet" />
     <title>Deluxe Parkering</title>
-  </head>
+</head>
+
 <body>
-      
-   <header>
-      
-    <nav>
-        <ul class="list1">
-            <li class="list1item"><a href="index.html">Deluxe Parkering</a></li>
-            <li class="list1item"><a href="bokaparkering.html">Boka Parkering</a></li>
-            <li class="list1item"><a class="active" href="varaovrigatjanster.html">Våra övriga tjänster</a></li>
-            <li class="list1item"><a href="hittatilloss.html">Hitta till oss</a></li>
-            <li class="list1item"><a href="contact.html">Kontakt</a></li>
-            <li class="list1item"><a href="forklaring.html">Om sidan</a></li>
-      </ul>
-    </nav>
-    
-  </header>
-  
- 
-      <div class="text">
-          <h4>Standardservice från 1350kr</h4>
-          
-          I den ingår:
-          <br>Byte av motorolja och oljefiltret.
-          <br><br>Uppdatering av bilens grundläggande mjukvara.
-          <br><br>Smörjning av låscylindrar, gångjärn och dörrar.
-          <br><br>Kontroll styrinrättning, batteri, lampor, varningslampor, <br>drivrem, 
-          kylsystem samt visuell kontroll av bromsar.
-          <br>
-          <br>
-          <br>
-          <h4>Express service från 1500kr</h4>
-          Boka en tid och fyll i vilken typ av service ni behöver i express rutan.
-          <br>
-          <br>
-          <br>
-          <br>
-          <h4>Standard Tvätt 250kr</h4> <br>
-          <h4>Deluxe Tvätt 550kr</h4>
-          <br>
-          <h4>Rekond in och utvändigt 1500kr</h4>
-            </div>
-               
-  <div class="boka">
-    <p>Boka tilläggstjänst</p><br>
-    <form action="/contact.html">
-    Förnamn:<br>
-    <input type="text" name="Förnamn"><br><br>
-    Efternamn:<br>
-    <input type="text" name="Efternamn"><br><br>
-    Registreringsnummer:<br>
-    <input type="text" name="Regnr"><br><br>
-    
-    Datum:<br> 
-    <input name="date" type="date" min="2018-10-22" max="2020-07-31"><br><br>
+    <header>
+        <nav>
+            <ul class="list1">
+                <li class="list1item"><a href="index.html">Deluxe Parkering</a></li>
+                <li class="list1item">
+                    <a href="bokaparkering.html">Boka Parkering</a>
+                </li>
+                <li class="list1item">
+                    <a class="active" href="varaovrigatjanster.html">Våra övriga tjänster</a
+            >
+          </li>
+          <li class="list1item">
+            <a href="hittatilloss.html">Hitta till oss</a>
+                </li>
+                <li class="list1item"><a href="contact.html">Kontakt</a></li>
+                <li class="list1item"><a href="forklaring.html">Om sidan</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <input type="radio" name="Bil" value="Bil" > Bil<br>
-  <input type="radio" name="MC" value="MC" > MC<br><br>
-  <input type="radio" name="Bil" value="Bil" >Standardservice<br><br>
-  Express service:<br>
-    <input type="text" name="Regnr"><br><br>
-  <input type="Submit" value="Skicka">
-  <input type="reset"> 
-</form>
-</div>
-<div class="frontImg">
-    <img src="./carkeys.jpg" alt="" class="image">
-      <div class="overlay">Vi tar hand om ditt fordon
-      </div>
-  </div>
-  <footer>
-      <a href="https://magnusahl.github.io/">©Copyright</a>
+    <div class="text">
+        <h4>Standardservice från 1350kr</h4>
 
-</footer>
-  </body>
+        I den ingår:
+        <br />Byte av motorolja och oljefiltret. <br /><br />Uppdatering av bilens grundläggande mjukvara. <br /><br />Smörjning av låscylindrar, gångjärn och dörrar. <br /><br />Kontroll styrinrättning, batteri, lampor, varningslampor, <br />drivrem,
+        kylsystem samt visuell kontroll av bromsar.
+        <br />
+        <br />
+        <br />
+        <h4>Express service från 1500kr</h4>
+        Boka en tid och fyll i vilken typ av service ni behöver i express rutan.
+        <br />
+        <br />
+        <br />
+        <br />
+        <h4>Standard Tvätt 250kr</h4>
+        <br />
+        <h4>Deluxe Tvätt 550kr</h4>
+        <br />
+        <h4>Rekond in och utvändigt 1500kr</h4>
+    </div>
+
+    <div class="boka">
+        <p>Boka tilläggstjänst</p>
+        <br />
+        <form action="/contact.html">
+            Förnamn:<br />
+            <input type="text" name="Förnamn" /><br /><br /> Efternamn:
+            <br />
+            <input type="text" name="Efternamn" /><br /><br /> Registreringsnummer:
+            <br />
+            <input type="text" name="Regnr" /><br /><br /> Datum:
+
+            <br />
+            <input name="date" type="date" min="2018-10-22" max="2020-07-31" /><br /><br />
+
+            <input type="radio" name="Bil" value="Bil" /> Bil<br />
+            <input type="radio" name="MC" value="MC" /> MC<br /><br />
+            <input type="radio" name="Bil" value="Bil" />Standardservice<br /><br /> Express service:<br />
+            <input type="text" name="Regnr" /><br /><br />
+            <input type="Submit" value="Skicka" />
+            <input type="reset" />
+        </form>
+    </div>
+    <div class="frontImg">
+        <img src="./carkeys.jpg" alt="" class="image" />
+        <div class="overlay">Vi tar hand om ditt fordon</div>
+    </div>
+    <footer>
+        <a href="https://magnusahl.github.io/">©Copyright</a>
+    </footer>
+</body>
+
 </html>
